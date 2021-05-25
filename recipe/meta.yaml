@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/paulponcet/bazar
-  license: GPL-3
+  license: GPL-3.0-only
   summary: 'A collection of miscellaneous functions for  copying objects to the clipboard (''Copy'');
     manipulating strings (''concat'', ''mgsub'', ''trim'', ''verlan'');  loading or
     showing packages (''library_with_dep'', ''require_with_dep'',  ''sessionPackages'');  creating
