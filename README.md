@@ -3,13 +3,11 @@ About r-bazar
 
 Home: https://github.com/paulponcet/bazar
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bazar-feedstock/blob/master/LICENSE.txt)
 
 Summary: A collection of miscellaneous functions for  copying objects to the clipboard ('Copy'); manipulating strings ('concat', 'mgsub', 'trim', 'verlan');  loading or showing packages ('library_with_dep', 'require_with_dep',  'sessionPackages');  creating or testing for named lists ('nlist', 'as.nlist', 'is.nlist'),  formulas ('is.formula'), empty objects ('as.empty', 'is.empty'),  whole numbers ('as.wholenumber', 'is.wholenumber');  testing for equality ('almost.equal', 'almost.zero') and computing  uniqueness ('almost.unique');  getting modified versions of usual functions ('rle2', 'sumNA');  making a pause or a stop ('pause', 'stopif');  converting into a function ('as.fun');  providing a C like ternary operator ('condition %?% true %:% false');  finding packages and functions ('get_all_pkgs', 'get_all_funs'); and others ('erase', '%nin%', 'unwhich', 'top', 'bot', 'normalize'). 
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-bazar` from the `conda-forge` channel can be achieved by adding `c
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-bazar` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
