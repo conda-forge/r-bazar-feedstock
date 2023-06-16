@@ -1,11 +1,11 @@
-About r-bazar
-=============
+About r-bazar-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bazar-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/paulponcet/bazar
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bazar-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of miscellaneous functions for  copying objects to the clipboard ('Copy'); manipulating strings ('concat', 'mgsub', 'trim', 'verlan');  loading or showing packages ('library_with_dep', 'require_with_dep',  'sessionPackages');  creating or testing for named lists ('nlist', 'as.nlist', 'is.nlist'),  formulas ('is.formula'), empty objects ('as.empty', 'is.empty'),  whole numbers ('as.wholenumber', 'is.wholenumber');  testing for equality ('almost.equal', 'almost.zero') and computing  uniqueness ('almost.unique');  getting modified versions of usual functions ('rle2', 'sumNA');  making a pause or a stop ('pause', 'stopif');  converting into a function ('as.fun');  providing a C like ternary operator ('condition %?% true %:% false');  finding packages and functions ('get_all_pkgs', 'get_all_funs'); and others ('erase', '%nin%', 'unwhich', 'top', 'bot', 'normalize'). 
 
